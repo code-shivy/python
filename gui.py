@@ -25,7 +25,6 @@ class ChatInterface(Frame):
         self.master.config(menu=menu, bd=5)
 # Menu bar
 
-    # File
         file = Menu(menu, tearoff=0)
         menu.add_cascade(label="File", menu=file)
        # file.add_command(label="Save Chat Log", command=self.save_chat)
